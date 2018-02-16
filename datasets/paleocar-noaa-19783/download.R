@@ -10,7 +10,9 @@ library(FedData)
 library(magrittr)
 library(tidyverse)
 
-dir.create("./data/",
+output_dir <- "./data/"
+
+dir.create(output_dir,
            showWarnings = FALSE,
            recursive = TRUE)
 
@@ -29,10 +31,11 @@ files <- files[grep("nc4", files)]
 
 tiles <- purrr::map_chr(stringr::str_c(url, files),
             FedData::download_data,
-            destdir = "./data/paleocar",
+            destdir = output_dir,
             nc = TRUE)
 
 tiles %>%
+  basename() %>%
   stringr::str_extract_all("[0-9]+.*") %>%
   stringr::str_replace_all("\\_.*","") %>%
   unique() %>%
@@ -61,32 +64,32 @@ tiles %>%
     raster::dataType(out) <- "LOG1S"
     
     out %>%
-     raster::writeRaster(stringr::str_c("./data/",
+     raster::writeRaster(stringr::str_c(output_dir,
                                         loc,"_","NICHE.nc"),
                          varname = "Niche",
                          varunit = "logical",
                          longname = "Logical niche inclusion: '1' if in the niche, '0' otherwise.",
                          zname = "Year AD",
-                         zunit = "Years",
+                         zunit = "calendar years since 0001-01-01",
                         overwrite = T)
     
-    file.rename(stringr::str_c("./data/",
+    file.rename(stringr::str_c(output_dir,
                                loc,"_","NICHE.nc"),
-                stringr::str_c("./data/",
+                stringr::str_c(output_dir,
                                loc,"_","NICHE.nc4"))
     
     stringr::str_c("gdal_translate -of netCDF ",
                    "-co COMPRESS=DEFLATE ",
                    "-co ZLEVEL=9 ",
                    # "-co FORMAT=NC4 ",
-                   "./data/", loc, "_", "NICHE.nc4 ",
-                   "./data/", loc, "_", "NICHE.nc") %>%
+                   output_dir, loc, "_", "NICHE.nc4 ",
+                   output_dir, loc, "_", "NICHE.nc") %>%
       system()
     
-    unlink(stringr::str_c("./data/",
+    unlink(stringr::str_c(output_dir,
                           loc,"_","NICHE.nc4"))
     
-    return(stringr::str_c("./data/",
+    return(stringr::str_c(output_dir,
                           loc,"_","NICHE.nc"))
     
   })
