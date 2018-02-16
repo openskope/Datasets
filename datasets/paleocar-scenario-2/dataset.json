@@ -1,0 +1,24 @@
+{
+  "type": "dataset",
+  "status": "published",
+  "revised": "2016-04-01",
+  "region": {
+    "resolution": "",
+    "name": "Southwestern USA",
+    "extents": [ -115, 31, -102, 43]
+  },
+  "timespan": {
+    "name": "0-2000CE",
+    "resolution": "month",
+    "period": {
+      "gte": "0000",
+      "lte": "2000"
+    }
+  },
+
+  "variables": [
+    { "name": "Growing Degree Days" },
+    { "name": "Annual Precipitation" }
+  ]
+}
+

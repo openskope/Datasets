@@ -1,0 +1,25 @@
+{
+  "type": "dataset",
+  "title": "Imported from description.md",
+  "description": "Imported from description.md",
+  "revised": "2016-04-01",
+  "region": {
+    "name": "Continental US at 4km grid",
+    "extents": [ "24.39", "49.38", "-124.85", "-66.89" ],
+    "resolution": "4km"
+  },
+  "timespan": {
+    "name": "1981-2010",
+    "resolution": "monthly",
+    "period": {
+      "gte": "1981-01",
+      "lte": "2010-12"
+    }
+  },
+  "variables": [
+    { "name": "Precipitation" },
+    { "name": "Mean Temperature" },
+    { "name": "Minimum Temperature" },
+    { "name": "Maximum Temperature" }
+  ]
+}

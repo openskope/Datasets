@@ -1,0 +1,21 @@
+{
+  "type": "dataset",
+  "status": "published",
+  "title": "Imported from description.md",
+  "description": "Imported from description.md",
+  "revised": "2016-04-01",
+  "region": {
+    "name": "Continental US at 4km grid",
+    "extents": [ -166.85, 24.39, -66.89, 49.38 ]
+  },
+  "timespan": {
+    "name": "1981-2010",
+    "resolution": "monthly",
+    "period": {
+      "lte": "1750"
+    }
+  },
+  "variables": [
+    { "name": "Radiocarbon Measurements" }
+  ]
+}

@@ -1,0 +1,2 @@
+# Canadian Archaeological Radiocarbon Database
+The Canadian Archaeological Radiocarbon Database (CARD) is a compilation of radiocarbon measurements that indicate the ages of samples primarily from archaeological sites in North America. CARD also includes samples from paleontological and geological contexts. We are slowly expanding our coverage into Central and South America. These data represent a significant investment and resource for researchers interested in human history and its context.

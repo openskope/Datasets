@@ -1,0 +1,26 @@
+{
+  "status": "published",
+  "region": {
+    "keywords": "",
+    "resolution": "",
+    "extents": [
+      "37.256",
+      "37.626",
+      "-109.011",
+      "-108.487"
+    ],
+    "name": "Southwestern USA",
+    "geojson": {}
+  },
+  "revised": "2016-04-01",
+  "timespan": {
+    "name": "600 to 1300CE",
+    "keywords": "Basketmaker III, Pueblo I, Pueblo II, Pueblo III",
+    "resolution": "",
+    "period": {
+      "gte": "600-01-01",
+      "lte": "1300-01-01"
+    }
+  },
+  "type": "dataset"
+}
