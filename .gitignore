@@ -1,0 +1,9 @@
+# Output
+/data
+/data/*
+data/
+
+# Mac trash files
+.DS_Store
+*/.DS_Store
+
