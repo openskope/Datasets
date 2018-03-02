@@ -6,6 +6,10 @@
 # Raw GDD and precipitation estimates are available from NOAA:
 # https://www.ncdc.noaa.gov/cdo/f?p=519:1:0::::P1_STUDY_ID:19783
 
+# install.packages("FedData")
+# install.packages("magrittr")
+# install.packages("tidyverse")
+
 library(FedData)
 library(magrittr)
 library(tidyverse)
