@@ -1,3 +1,6 @@
+# install.packages("FedData")
+# install.packages("magrittr")
+
 library(FedData)
 library(magrittr)
 
