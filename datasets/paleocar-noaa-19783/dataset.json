@@ -18,7 +18,8 @@
 
   "variables": [
     { "name": "Growing Degree Days" },
-    { "name": "Annual Precipitation" }
+    { "name": "Annual Precipitation" },
+    { "name": "Direct-precipitation Maize Farming Niche" }
   ]
 }
 
