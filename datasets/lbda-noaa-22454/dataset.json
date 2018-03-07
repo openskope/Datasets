@@ -1,24 +1,23 @@
 {
   "type": "dataset",
   "status": "published",
-  "revised": "2016-04-01",
+  "revised": "2017-08-03",
   "region": {
     "resolution": "",
     "name": "Southwestern USA",
-    "extents": [ -115, 31, -102, 43]
+    "extents": [ -124, 24, -68, 50]
   },
   "timespan": {
-    "name": "0-2000CE",
+    "name": "0-2017CE",
     "resolution": "year",
     "period": {
-      "gte": "0000",
-      "lte": "2000"
+      "gte": "0001",
+      "lte": "2017"
     }
   },
 
   "variables": [
-    { "name": "Growing Degree Days" },
-    { "name": "Annual Precipitation" }
+    { "name": "Palmer Modified Drought Index" }
   ]
 }
 
