@@ -9,6 +9,8 @@
 # install.packages("FedData")
 # install.packages("magrittr")
 # install.packages("tidyverse")
+# install.packages("httr")
+# install.packages("XML")
 
 library(FedData)
 library(magrittr)
