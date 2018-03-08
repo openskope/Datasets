@@ -109,7 +109,7 @@ c("PPT_models.zip",
   purrr::map(list.files,
              full.names = TRUE) %>%
   unlist() %>%
-  purrr::map(function(x){
+  purrr::walk(function(x){
     
     var <- x %>%
       basename() %>%
