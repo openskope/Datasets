@@ -1,14 +1,16 @@
 {
   "type": "dataset",
-  "status": "published",
+  "status": "Published",
   "revised": "2016-04-01",
+
   "region": {
-    "resolution": "",
-    "name": "Southwestern USA",
+    "resolution": "800m",
+    "name": "Southwestern USA at 800m",
     "extents": [ -115, 31, -102, 43]
   },
+
   "timespan": {
-    "name": "0-2000CE",
+    "name": "0-2000CE annual",
     "resolution": "year",
     "period": {
       "gte": "0000",
@@ -17,8 +19,9 @@
   },
 
   "variables": [
-    { "name": "Growing Degree Days" },
-    { "name": "Annual Precipitation" }
+    { "class": "Temperature", "name": "Growing Degree Days" },
+    { "class": "Suitability", "name": "Niche Mask" },
+    { "class": "Preciptation", "name": "Annual Precipitation" }
   ]
 }
 
