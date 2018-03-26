@@ -1,0 +1,16 @@
+{
+  "analytics": [
+    {
+      "name": "Annual Precipitation",
+      "url": "http://staging.openskope.org/timeseries-service/api/v1/values?dataset=paleocar_2&variable=annual_precipitation&lat={LAT}&lng={LONG}&start={START}&end={END}"
+    }, 
+    {
+      "name": "Growing Degree Days",
+      "url": "http://staging.openskope.org/timeseries-service/api/v1/values?dataset=paleocar_2&variable=growing_degree_days&lat={LAT}&lng={LONG}&start={START}&end={END}"
+    },
+    {
+      "name": "Niche Mask",
+      "url": "http://staging.openskope.org/timeseries-service/api/v1/values?dataset=paleocar_2&variable=niche_mask&lat={LAT}&lng={LONG}&start={START}&end={END}"
+    } 
+  ]
+}
