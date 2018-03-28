@@ -1,0 +1,12 @@
+{
+  "analytics": [
+    {
+      "name": "Growing Degree Days",
+      "url": "http://staging.openskope.org/timeseries-service/api/v1/values?dataset=paleocar_2&variable=growing_degree_days&boundaryGeometry={boundaryGeometry}&start={startBand}&end={endBand}"
+    },
+    {
+      "name": "Annual Precipitation",
+      "url": "http://staging.openskope.org/timeseries-service/api/v1/values?dataset=paleocar_2&variable=annual_precipitation&boundaryGeometry={boundaryGeometry}&start={startBand}&end={endBand}"
+    }
+  ]
+}
