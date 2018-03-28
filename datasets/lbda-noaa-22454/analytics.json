@@ -1,0 +1,8 @@
+{
+  "analytics": [
+    {
+      "name": "Palmer Modified Drought Index",
+      "url": "http://staging.openskope.org/timeseries-service/api/v1/values?dataset=lbda_v2&variable=palmer_modified_drought_index&boundaryGeometry={boundaryGeometry}&start={startBand}&end={endBand}"
+    }
+  ]
+}

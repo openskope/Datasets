@@ -1,19 +1,11 @@
 {
   "overlays": [
     {
-      "name": "Annual Precipitation",
+      "name": "Palmer Modified Drought Index",
       "type": "wms",
-      "url": "http://staging.openskope.org/geoserver/SKOPE/wms?layers=SKOPE:paleocar_1_PPTannual_{YYYY}0101",
-      "min": 0.0,
-      "max": 10.0,
-      "styles": [ "default" ]
-    }, 
-    {
-      "name": "Growing Degree Days",
-      "type": "wms",
-      "url": "http://staging.openskope.org/geoserver/SKOPE/wms?layers=SKOPE:paleocar_1_GDD_{YYYY}0101",
-      "min": 0.0,
-      "max": 10.0,
+      "url": "http://staging.openskope.org/geoserver/SKOPE/wms?layers=SKOPE:pmdi_2017-01-01",
+      "min": -6.0,
+      "max": 6.0,
       "styles": [ "default" ]
     } 
   ]

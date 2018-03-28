@@ -1,16 +1,11 @@
 {
   "downloads": [
     {
-      "name": "Annual Precipitation",
-      "url": "http://staging.openskope.org/downloads/datasets/paleocar/PPTannual",
-      "size": 11233332,
-      "format": ["GeoTIFF"]
-    }, 
-    {
-      "name": "Growing Degree Days",
-      "url": "http://staging.openskope.org/geoserver/datasets/paleocar/GDD",
-      "size": 11233332,
-      "format": ["GeoTIFF"]
+      "name": "Palmer Modified Drought Index",
+      "url": "http://staging.openskope.org/downloads/lbda_v2/lbda-v2_kddm_pmdi_2017.nc",
+      "size": "44575504",
+      "format": "NetCDF",
+      "formats": ["NetCDF", "GTiff"]
     } 
   ]
 }
