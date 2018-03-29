@@ -7,6 +7,10 @@
     {
       "name": "Annual Precipitation",
       "url": "http://staging.openskope.org/timeseries-service/api/v1/values?dataset=paleocar_2&variable=annual_precipitation&boundaryGeometry={boundaryGeometry}&start={startBand}&end={endBand}"
+    },
+    {
+      "name": "Direct-precipitation Maize Farming Niche",
+      "url": "http://staging.openskope.org/timeseries-service/api/v1/values?dataset=paleocar_2&variable=maize_farming_niche&boundaryGeometry={boundaryGeometry}&start={startBand}&end={endBand}"
     }
   ]
 }
