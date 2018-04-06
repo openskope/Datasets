@@ -8,7 +8,7 @@
     "extents": [ -115, 31, -102, 43]
   },
   "timespan": {
-    "name": "0-2000CE",
+    "name": "1-2000CE",
     "resolution": "year",
     "period": {
       "gte": "0000",
