@@ -2,15 +2,15 @@
   "analytics": [
     {
       "name": "Growing Degree Days",
-      "url": "http://staging.openskope.org/timeseries-service/api/v1/values?dataset=paleocar_2&variable=growing_degree_days&boundaryGeometry={boundaryGeometry}&start={startBand}&end={endBand}"
+      "url": "http://staging.openskope.org/timeseries-service/api/v1/timeseries/paleocar_2/growing_degree_days?start={start}&end={end}&{boundaryGeometry}"
     },
     {
       "name": "Annual Precipitation",
-      "url": "http://staging.openskope.org/timeseries-service/api/v1/values?dataset=paleocar_2&variable=annual_precipitation&boundaryGeometry={boundaryGeometry}&start={startBand}&end={endBand}"
+      "url": "http://staging.openskope.org/timeseries-service/api/v1/timeseries/paleocar_2/annual_precipitation?start={start}&end={end}&{boundaryGeometry}"
     },
     {
       "name": "Direct-precipitation Maize Farming Niche",
-      "url": "http://staging.openskope.org/timeseries-service/api/v1/values?dataset=paleocar_2&variable=maize_farming_niche&boundaryGeometry={boundaryGeometry}&start={startBand}&end={endBand}"
+      "url": "http://staging.openskope.org/timeseries-service/api/v1/timeseries/paleocar_2/maize_farming_niche?start={start}&end={end}&{boundaryGeometry}"
     }
   ]
 }

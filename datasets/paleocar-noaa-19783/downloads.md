@@ -1,3 +1,3 @@
 # Downloads
-The study data is avilable for direct downloads through your browser.
+The study data is available for direct downloads through your browser.
 

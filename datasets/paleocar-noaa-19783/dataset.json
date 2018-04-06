@@ -23,7 +23,7 @@
       "name": "Growing Degree Days" },
     { "class": "Precipitation",
       "name": "Annual Precipitation" },
-    { "class": "Suitability",
+    { "class": "Crop Niche",
       "name": "Direct-precipitation Maize Farming Niche" }
   ]
 }
