@@ -11,7 +11,7 @@
     "name": "1-2000CE",
     "resolution": "year",
     "period": {
-      "gte": "0000",
+      "gte": "0001",
       "lte": "2000"
     }
   },
