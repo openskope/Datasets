@@ -1,7 +1,7 @@
 {
   "overlays": [
     {
-      "name": "Annual Precipitation",
+      "name": "Water-year (Oct–Sept) Precipitation (mm)",
       "type": "wms",
       "url": "http://staging.openskope.org/geoserver/SKOPE/wms?layers=SKOPE:paleocar_1_PPTannual_{YYYY}0101",
       "min": 0.0,
@@ -9,7 +9,7 @@
       "styles": [ "default" ]
     }, 
     {
-      "name": "Growing Degree Days",
+      "name": "Growing-season (May–Sept) Growing Degree Days (Celcius GDD)",
       "type": "wms",
       "url": "http://staging.openskope.org/geoserver/SKOPE/wms?layers=SKOPE:paleocar_1_GDD_{YYYY}0101",
       "min": 0.0,
