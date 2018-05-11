@@ -17,8 +17,8 @@
   },
 
   "variables": [
-    { "name": "Growing Degree Days" },
-    { "name": "Water-year Precipitation" },
+    { "name": "Growing-season (May–Sept) Growing Degree Days (Celcius GDD)" },
+    { "name": "Water-year (Oct–Sept) Precipitation (mm)" },
     { "name": "Direct-precipitation Maize Farming Niche" }
   ]
 }
