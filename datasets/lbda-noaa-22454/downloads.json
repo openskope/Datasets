@@ -2,7 +2,7 @@
   "downloads": [
     {
       "name": "Palmer Modified Drought Index",
-      "url": "http://staging.openskope.org/downloads/lbda_v2/lbda-v2_kddm_pmdi_2017.nc",
+      "url": "https://app.openskope.org/downloads/lbda_v2/lbda-v2_kddm_pmdi_2017.nc",
       "size": "44575504",
       "format": "NetCDF",
       "formats": ["NetCDF", "GTiff"]
