@@ -1,14 +1,14 @@
 {
   "downloads": [
     {
-      "name": "Annual Precipitation",
-      "url": "http://staging.openskope.org/downloads/datasets/paleocar/PPTannual",
+      "name": "Water-year Precipitation",
+      "url": "http://app.openskope.org/downloads/datasets/paleocar/PPTannual",
       "size": 11233332,
       "format": ["GeoTIFF"]
     }, 
     {
       "name": "Growing Degree Days",
-      "url": "http://staging.openskope.org/geoserver/datasets/paleocar/GDD",
+      "url": "http://app.openskope.org/geoserver/datasets/paleocar/GDD",
       "size": 11233332,
       "format": ["GeoTIFF"]
     } 

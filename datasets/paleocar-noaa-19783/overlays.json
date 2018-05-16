@@ -1,9 +1,9 @@
 {
   "overlays": [
     {
-      "name": "Annual Precipitation",
+      "name": "Water-year Precipitation",
       "type": "wms",
-      "url": "https://staging.openskope.org/geoserver/SKOPE/wms?layers=SKOPE:paleocar_ppt_{YYYY}-01-01",
+      "url": "https://app.openskope.org/geoserver/SKOPE/wms?layers=SKOPE:paleocar_ppt_{YYYY}-01-01",
       "min": 0.0,
       "max": 10.0,
       "styles": [ "default" ]
@@ -11,7 +11,7 @@
     {
       "name": "Growing Degree Days",
       "type": "wms",
-      "url": "https://staging.openskope.org/geoserver/SKOPE/wms?layers=SKOPE:paleocar_gdd_{YYYY}-01-01",
+      "url": "https://app.openskope.org/geoserver/SKOPE/wms?layers=SKOPE:paleocar_gdd_{YYYY}-01-01",
       "min": 0.0,
       "max": 10.0,
       "styles": [ "default" ]
@@ -19,7 +19,7 @@
     {
       "name": "Direct-precipitation Maize Farming Niche",
       "type": "wms",
-      "url": "https://staging.openskope.org/geoserver/SKOPE/wms?layers=SKOPE:niche_{YYYY}",
+      "url": "https://app.openskope.org/geoserver/SKOPE/wms?layers=SKOPE:niche_{YYYY}",
       "min": 0.0,
       "max": 1.0,
       "styles": [ "default" ]

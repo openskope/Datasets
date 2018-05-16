@@ -1,3 +1,3 @@
 # Downloads
-The study data is available for direct downloads through your browser.
+Downloads are not available during the beta period.
 
