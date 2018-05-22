@@ -1,14 +1,14 @@
 {
   "type": "dataset",
-  "status": "published",
+  "status": "Published",
   "revised": "2017-08-03",
   "region": {
-    "resolution": "",
+    "resolution": ".5 degree",
     "name": "Southwestern USA",
     "extents": [ -124, 24, -68, 50]
   },
   "timespan": {
-    "name": "1-2017CE",
+    "name": "1-2017CE annually",
     "resolution": "year",
     "period": {
       "gte": "0001",
@@ -17,7 +17,10 @@
   },
 
   "variables": [
-    { "name": "Palmer Modified Drought Index" }
+    { 
+        "class": "Precipitation",
+        "name": "Palmer Modified Drought Index"
+    }
   ]
 }
 

@@ -1,3 +1,5 @@
 # Downloads
-The study data is avilable for direct downloads through your browser.
+_Downloads using SKOPE interface are disabled during the beta period.__
+
+
 
