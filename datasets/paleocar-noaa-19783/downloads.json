@@ -1,14 +1,14 @@
 {
   "downloads": [
     {
-      "name": "Water-year (Oct–Sept) Precipitation (mm)",
-      "url": "http://staging.openskope.org/downloads/datasets/paleocar/PPTannual",
+      "name": "Water-year (Oct-Sept) Precipitation (mm)",
+      "url": "https://staging.openskope.org/downloads/datasets/paleocar/PPTannual",
       "size": 11233332,
       "format": ["GeoTIFF"]
     }, 
     {
-      "name": "Growing-season (May–Sept) Growing Degree Days (Celcius GDD)",
-      "url": "http://staging.openskope.org/geoserver/datasets/paleocar/GDD",
+      "name": "Growing-season (May-Sept) Growing Degree Days (Celcius GDD)",
+      "url": "https://staging.openskope.org/geoserver/datasets/paleocar/GDD",
       "size": 11233332,
       "format": ["GeoTIFF"]
     } 

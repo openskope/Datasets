@@ -1,25 +1,28 @@
 {
   "overlays": [
     {
-      "name": "Water-year (Oct–Sept) Precipitation (mm)",
+      "title": "Water-year (Oct-Sept) Precipitation (mm)",
+      "name": "Water-year (Oct-Sept) Precipitation (mm)",
       "type": "wms",
-      "url": "http://staging.openskope.org/geoserver/SKOPE/wms?layers=SKOPE:paleocar_2_ppt_{YYYY}-01-01",
+      "url": "https://staging.openskope.org/geoserver/SKOPE/wms?layers=SKOPE:paleocar_ppt_{YYYY}-01-01",
       "min": 0.0,
       "max": 10.0,
       "styles": [ "default", "raster" ]
     }, 
     {
-      "name": "Growing-season (May–Sept) Growing Degree Days (Celcius GDD)",
+      "title": "Growing-season (May-Sept) Growing Degree Days (Celcius GDD)",
+      "name": "Growing-season (May-Sept) Growing Degree Days (Celcius GDD)",
       "type": "wms",
-      "url": "http://staging.openskope.org/geoserver/SKOPE/wms?layers=SKOPE:paleocar_2_gdd_{YYYY}-01-01",
+      "url": "https://staging.openskope.org/geoserver/SKOPE/wms?layers=SKOPE:paleocar_gdd_{YYYY}-01-01",
       "min": 0.0,
       "max": 10.0,
       "styles": [ "default", "raster" ]
     }, 
     {
-      "name": "Niche Mask",
+      "title": "Direct-precipitation Maize Farming Niche",
+      "name": "Direct-precipitation Maize Farming Niche",
       "type": "wms",
-      "url": "http://staging.openskope.org/geoserver/SKOPE/wms?layers=SKOPE:paleocar_2_niche_{YYYY}-01-01",
+      "url": "https://staging.openskope.org/geoserver/SKOPE/wms?layers=SKOPE:niche_{YYYY}",
       "min": 0.0,
       "max": 1.0,
       "styles": [ "default" ]
