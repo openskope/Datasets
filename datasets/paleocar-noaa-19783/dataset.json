@@ -10,18 +10,27 @@
   },
 
   "timespan": {
-    "name": "0-2000CE annual",
+    "name": "1-2000CE annually",
     "resolution": "year",
     "period": {
-      "gte": "0000",
+      "gte": "0001",
       "lte": "2000"
     }
   },
 
   "variables": [
-    { "class": "Temperature", "name": "Growing Degree Days" },
-    { "class": "Suitability", "name": "Niche Mask" },
-    { "class": "Preciptation", "name": "Annual Precipitation" }
+    { 
+        "class": "Temperature",
+        "name": "Growing-season (May-Sept) Growing Degree Days (Celcius GDD)"
+    },
+    { 
+        "class": "Precipitation",
+        "name": "Water-year (Oct-Sept) Precipitation (mm)"
+    },
+    { 
+        "class": "Crop Niche",
+        "name": "Direct-precipitation Maize Farming Niche"
+    }
   ]
 }
 
