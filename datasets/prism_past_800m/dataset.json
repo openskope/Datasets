@@ -1,0 +1,30 @@
+{
+  "type": "dataset",
+  "status": "Published",
+  "revised": "2016-04-01",
+
+  "region": {
+    "resolution": "800m",
+    "name": "Continental US at 800m",
+    "extents": [ -125, 24, -67, 50]
+  },
+
+  "timespan": {
+    "name": "1895-2013CE monthly",
+    "resolution": "year",
+    "period": {
+      "gte": "1895",
+      "lte": "2013"
+    }
+  },
+
+  "variables": [
+    { "class": "Temperature",
+      "name": "Minimum Temperature" },
+    { "class": "Temperature",
+      "name": "Maximum Temperature" },
+    { "class": "Precipitation",
+      "name": "Precipitation" }
+  ]
+}
+

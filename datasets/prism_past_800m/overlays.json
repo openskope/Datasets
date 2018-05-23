@@ -1,0 +1,28 @@
+{
+  "overlays": [
+    {
+      "name": "Precipitation",
+      "type": "wms",
+      "url": "https://staging.openskope.org/geoserver/SKOPE/wms?layers=SKOPE:cai_ppt_us_us_30s_{YYYY}01",
+      "min": 0.0,
+      "max": 1115.0,
+      "styles": [ "default" ]
+    }, 
+    {
+      "name": "Minimum Temperature",
+      "type": "wms",
+      "url": "https://staging.openskope.org/geoserver/SKOPE/wms?layers=SKOPE:cai_tmin_us_us_30s_{YYYY}01",
+      "min": -20.0,
+      "max": 40.0,
+      "styles": [ "default" ]
+    },
+    {
+      "name": "Maximum Temperature",
+      "type": "wms",
+      "url": "https://staging.openskope.org/geoserver/SKOPE/wms?layers=SKOPE:cai_tmax_us_us_30s_{YYYY}01",
+      "min": -20.0,
+      "max": 40.0,
+      "styles": [ "default" ]
+    } 
+  ]
+}
