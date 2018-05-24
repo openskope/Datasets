@@ -2,7 +2,7 @@
   "analytics": [
     {
       "name": "Palmer Modified Drought Index",
-      "url": "https://staging.openskope.org/timeseries-service/api/v1/timeseries/lbda-v2/palmer_modified_drought_index?{boundaryGeometry}"
+      "url": "https://staging.openskope.org/timeseries-service/api/v1/timeseries/lbda-v2/palmer_modified_drought_index?start={start}&end={end}&timeResolution=year&timeZero=1&{boundaryGeometry}"
     }
   ]
 }
