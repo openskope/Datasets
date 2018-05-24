@@ -1,7 +1,7 @@
 {
   "overlays": [
     {
-      "name": "Precipitation",
+      "name": "Monthly Precipitation (in.)",
       "type": "wms",
       "url": "https://staging.openskope.org/geoserver/SKOPE/wms?layers=SKOPE:cai_ppt_us_us_30s_{YYYY}01",
       "min": 0.0,
@@ -9,7 +9,7 @@
       "styles": [ "default" ]
     }, 
     {
-      "name": "Minimum Temperature",
+      "name": "Mean Daily Min. Temp. (F, Month)",
       "type": "wms",
       "url": "https://staging.openskope.org/geoserver/SKOPE/wms?layers=SKOPE:cai_tmin_us_us_30s_{YYYY}01",
       "min": -20.0,
@@ -17,7 +17,7 @@
       "styles": [ "default" ]
     },
     {
-      "name": "Maximum Temperature",
+      "name": "Mean Daily Max. Temp. (F, Month)",
       "type": "wms",
       "url": "https://staging.openskope.org/geoserver/SKOPE/wms?layers=SKOPE:cai_tmax_us_us_30s_{YYYY}01",
       "min": -20.0,

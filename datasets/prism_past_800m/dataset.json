@@ -20,11 +20,13 @@
 
   "variables": [
     { "class": "Temperature",
-      "name": "Minimum Temperature" },
+      "name": "Mean Daily Max. Temp. (F, Month)"
+    },
     { "class": "Temperature",
-      "name": "Maximum Temperature" },
+      "name": "Mean Daily Min. Temp. (F, Month)"
+    },
     { "class": "Precipitation",
-      "name": "Precipitation" }
+      "name": "Monthly Precipitation (in.)" }
   ]
 }
 

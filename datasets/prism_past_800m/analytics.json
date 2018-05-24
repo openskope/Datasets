@@ -1,16 +1,16 @@
 {
   "analytics": [
     {
-      "name": "Precipitation",
+      "name": "Monthly Precipitation (in.)",
       "url": "https://staging.openskope.org/timeseries-service/api/v1/timeseries/prism/ppt?start={start}&end={end}&{boundaryGeometry}"
     },
     {
-      "name": "Minimum Temperature",
-      "url": "https://staging.openskope.org/timeseries-service/api/v1/timeseries/prism/tmin?{boundaryGeometry}"
+      "name": "Mean Daily Min. Temp. (F, Month)",
+      "url": "https://staging.openskope.org/timeseries-service/api/v1/timeseries/prism/tmin?start={start}&end={end}&{boundaryGeometry}"
     },
     {
-      "name": "Maximum Temperature",
-      "url": "https://staging.openskope.org/timeseries-service/api/v1/timeseries/prism/tmax?{boundaryGeometry}"
+      "name": "Mean Daily Max. Temp. (F, Month)",
+      "url": "https://staging.openskope.org/timeseries-service/api/v1/timeseries/prism/tmax?start={start}&end={end}&{boundaryGeometry}"
     }
   ]
 }
