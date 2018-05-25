@@ -4,8 +4,8 @@
   "revised": "2017-08-03",
   "region": {
     "resolution": ".5 degree",
-    "name": "Southwestern USA",
-    "extents": [ -124, 24, -68, 50]
+    "name": "Continental U.S. at .5 degree",
+    "extents": [ -124.5, 24, -67, 49]
   },
   "timespan": {
     "name": "1-2017CE annually",
