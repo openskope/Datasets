@@ -6,7 +6,7 @@
     },
     {
       "name": "Water-year (Oct-Sept) Precipitation (mm)",
-      "url": "https://staging.openskope.org/timeseries-service/api/v1/timeseries/paleocar_2/annual_precipitation?start={start}&end={end}&timeResolution=year&timeZero=1&{boundaryGeometry}"
+      "url": "https://staging.openskope.org/timeseries-service/api/v1/timeseries/paleocar_2/water_year_precipitation?start={start}&end={end}&timeResolution=year&timeZero=1&{boundaryGeometry}"
     },
     {
       "name": "Direct-precipitation Maize Farming Niche",
