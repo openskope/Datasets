@@ -1,16 +1,16 @@
 {
   "analytics": [
     {
-      "name": "Growing-season (May-Sept) Growing Degree Days (Celcius GDD)",
-      "url": "https://staging.openskope.org/timeseries-service/api/v1/timeseries/paleocar_2/growing_degree_days?start={start}&end={end}&timeResolution=year&timeZero=1&{boundaryGeometry}"
+      "name": "Growing Degree Days (F, May-Sept)",
+      "url": "{DEPLOY_HOST}/timeseries-service/api/v1/timeseries/paleocar_2/growing_degree_days?start={start}&end={end}&timeResolution=year&timeZero=1&{boundaryGeometry}"
     },
     {
       "name": "Water-year (Oct-Sept) Precipitation (mm)",
-      "url": "https://staging.openskope.org/timeseries-service/api/v1/timeseries/paleocar_2/water_year_precipitation?start={start}&end={end}&timeResolution=year&timeZero=1&{boundaryGeometry}"
+      "url": "{DEPLOY_HOST}/timeseries-service/api/v1/timeseries/paleocar_2/water_year_precipitation?start={start}&end={end}&timeResolution=year&timeZero=1&{boundaryGeometry}"
     },
     {
-      "name": "Direct-precipitation Maize Farming Niche",
-      "url": "https://staging.openskope.org/timeseries-service/api/v1/timeseries/paleocar_2/maize_farming_niche?start={start}&end={end}&timeResolution=year&timeZero=1&{boundaryGeometry}"
+      "name": "Maize Farming Niche (Direct Precip.)",
+      "url": "{DEPLOY_HOST}/timeseries-service/api/v1/timeseries/paleocar_2/maize_farming_niche?start={start}&end={end}&timeResolution=year&timeZero=1&{boundaryGeometry}"
     }
   ]
 }

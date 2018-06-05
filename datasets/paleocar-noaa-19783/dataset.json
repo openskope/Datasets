@@ -21,7 +21,7 @@
   "variables": [
     { 
         "class": "Temperature",
-        "name": "Growing-season (May-Sept) Growing Degree Days (Celcius GDD)"
+        "name": "Growing Degree Days (F, May-Sept)"
     },
     { 
         "class": "Precipitation",
@@ -29,7 +29,7 @@
     },
     { 
         "class": "Crop Niche",
-        "name": "Direct-precipitation Maize Farming Niche"
+        "name": "Maize Farming Niche (Direct Precip.)"
     }
   ]
 }
