@@ -10,7 +10,7 @@
 
 **Method Summary and Comments** For each pixel, for each year, the model selects the tree ring chronologies (west of the Mississippi; from the National Tree Ring Database) that best predict PRISM data for that location and uses correlation adjusted regression to estimate the paleoenvironmental varriable for that date and location.
 
-**Uncertainty:** The uncertainty available with the graph and graph download represents the X.X SD uncertainty of the regression of the PRISM data on the empirical tree ring record. Other sources of uncertainty include the uncertainty associated with PRISM's modeled contemporary data for locations without empirical measurements. 
+**Uncertainty:** The uncertainty available on the graph and in the graph data download csv represents the average X.X SD uncertainty of the regression of the PRISM data on the empirical tree ring record. Other sources of uncertainty include the uncertainty associated with PRISM's modeled contemporary data for locations without empirical measurements. 
 
 **NOAA Study Page:** [https://www.ncdc.noaa.gov/paleo/study/19783](https://www.ncdc.noaa.gov/paleo/study/19783) \[Ann:My only comment is “NOAA Study Page”. That seems less general than the other labels. Will everything have a NOAA Study Page? Is this just the entry for links more generally?]
 
