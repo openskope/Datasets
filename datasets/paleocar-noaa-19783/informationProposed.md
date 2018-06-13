@@ -8,7 +8,7 @@
 
 **Variables:** Growing Degree Days (F deg.; Growing Season: May-Sept.); Precipitation (mm.; Water Year: prev. Oct-Sept); Maize Farming Niche (Direct Precipitation; >= xxxx Growing Season F GDD & >= XXX mm. Water Year Precip.)
 
-**Method Summary and Comments** For each pixel, the model selects the tree ring chronologies (west of the Mississippi) that best predict PRISM data for that location and uses correlation adjusted regression to estimate the paleoenvironmental varriable for each year. 
+**Method Summary and Comments** For each pixel, for each year, the model selects the tree ring chronologies (west of the Mississippi) that best predict PRISM data for that location and uses correlation adjusted regression to estimate the paleoenvironmental varriable for that date and location.
 
 **Uncertainty:** The uncertainty available with the graph and graph download represents the X.X SD uncertainty of the regression of the PRISM data on the empirical tree ring record. Other sources of uncertainty include the uncertainty associated with PRISM's modeled contemporary data for locations without empirical measurements. 
 
