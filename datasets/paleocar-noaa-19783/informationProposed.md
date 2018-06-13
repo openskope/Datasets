@@ -12,7 +12,7 @@
 
 **Uncertainty:** The uncertainty available with the graph and graph download represents the X.X SD uncertainty of the regression of the PRISM data on the empirical tree ring record. Other sources of uncertainty include the uncertainty associated with PRISM's modeled contemporary data for locations without empirical measurements. 
 
-**NOAA Study Page:** [https://www.ncdc.noaa.gov/paleo/study/19783](https://www.ncdc.noaa.gov/paleo/study/19783)
+**NOAA Study Page:** [https://www.ncdc.noaa.gov/paleo/study/19783](https://www.ncdc.noaa.gov/paleo/study/19783) [[Ann: Keith: My only comment is “NOAA Study Page”. That seems less general than the other labels. Will everything have a NOAA Study Page? Is this just the entry for links more generally?]]
 
 **References:** Bocinsky, R. Kyle, and Timothy A. Kohler. 2014. A 2,000-year reconstruction of the rain-fed maize agricultural niche in the US Southwest. _Nature Communications_ 5:5618. DOI: 10.1038/ncomms6618.
 
