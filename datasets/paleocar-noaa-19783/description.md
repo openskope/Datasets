@@ -1,2 +1,2 @@
-# SW USA 2000 Year Growing Degree Days and Precipitation Reconstructions
-Humans experience, adapt to and influence climate at local scales. Paleoclimate research, however, tends to focus on continental, hemispheric or global scales, making it difficult for archaeologists and paleoecologists to study local effects. For Arizona, New Mexico, Colorado, and Utah in the Southwestern United States, we provide high-frequency, local (800m resolution) temperature and precipitation reconstructions from tree-rings. Using these reconstructions we also calculate the direct-recipitation rain-fed maize agricultural niche. 
+## PaleoCAR: SW USA Paleoclimatic Reconstruction
+High spatial resolution (30 arc-second, ~800 m) Southwestern United States tree-ring reconstructions of May-Sept growing degree days (GDD), net water-year precipitation (previous Oct–Sept), and the direcct precipitation maize farming niche (>= 1800 growing Season F GDD & >= 300 mm water-year precipitation).

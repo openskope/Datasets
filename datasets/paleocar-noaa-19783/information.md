@@ -1,25 +1,34 @@
-# SW USA 2000 Year Growing Degree Days and Precipitation Reconstructions
+## PaleoCAR: SW USA Paleoclimatic Reconstruction
 
-## Originator:
-Bocinsky, R.K.; Rush, J.; Kintigh, K.W.; Kohler, T.A.
+**Originator:** Bocinsky, R.K.; Kohler, T.A.
 
-## Summary
-Cycles of demographic and organizational change are well documented in Neolithic societies, but the social and ecological processes underlying them are debated. Such periodicities are implicit in the “Pecos classification,” a chronology for the pre-Hispanic U.S. Southwest introduced in Science in 1927 which is still widely used. To understand these periodicities, we analyzed 29,311 archaeological tree-ring dates from A.D. 500 to 1400 in the context of a novel high spatial resolution, annual reconstruction of the maize dry-farming niche for this same period. We argue that each of the Pecos periods initially incorporates an “exploration” phase, followed by a phase of “exploitation” of niches that are simultaneously ecological, cultural, and organizational. Exploitation phases characterized by demographic expansion and aggregation ended with climatically driven downturns in agricultural favorability, undermining important bases for social consensus. Exploration phases were times of socio-ecological niche discovery and development.
+**Spatial Coverage:** 30 arc-sec (~800 m) resolution; the Four Corners states: Arizona, Colorado, New Mexico, & Utah
 
-## Science Keywords
-Precipitation, Growing Degree Days, Maize Niche
+**Temporal Coverage:** annual resolution; 1–2000 CE
 
-## NOAA Study Page
-[https://www.ncdc.noaa.gov/paleo/study/19783](https://www.ncdc.noaa.gov/paleo/study/19783)
+**Variables:** 
+* Growing Degree Days (F deg.; Growing Season: May–Sept.)
+* Precipitation (mm; Water Year: prev. Oct–Sept)
+* Maize Farming Niche (Direct Precipitation; >= 1800 Growing Season F GDD & >= 300 mm Water Year Precip.)
 
-## Contact Information
-```
-DOC/NOAA/NESDIS/NCEI
-National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce
-325 Broadway, E/NE31
-Boulder, CO 80305-3328
-USA
-https://www.ncdc.noaa.gov/data-access/paleoclimatology-data
-email: paleo@noaa.gov
-phone: 303-497-6280 fax: 303-497-6513
-```
+**Method Summary and Comments** For each pixel, for each year, the model selects the tree ring chronologies (within a 10-degree buffer of the Four Corners states; from the National Tree Ring Database) that best predict PRISM data for that location and uses linear regression to estimate the paleoenvironmental variable for that date and location.
+
+**Uncertainty:** The uncertainty available on the graph and in the graph data download csv represents the predicted residual error sum of squares (PRESS) statistic for each cell's reconstruction. 
+
+**Data archived at:** [https://www.ncdc.noaa.gov/paleo/study/19783](https://www.ncdc.noaa.gov/paleo/study/19783)
+
+**References:** Bocinsky, R. Kyle, and Timothy A. Kohler. 2014. A 2,000-year reconstruction of the rain-fed maize agricultural niche in the US Southwest. _Nature Communications_ 5:5618. DOI: 10.1038/ncomms6618.
+
+**Data Last Revised:** April 5, 2016
+
+**Contact Information**
+
+> DOC/NOAA/NESDIS/NCEI  
+National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce  
+325 Broadway, E/NE31  
+Boulder, CO 80305-3328  
+USA  
+[https://www.ncdc.noaa.gov/data-access/paleoclimatology-data](https://www.ncdc.noaa.gov/data-access/paleoclimatology-data)  
+email: [paleo@noaa.gov](mailto:paleo@noaa.gov)  
+phone: 303-497-6280  
+fax: 303-497-6513  
