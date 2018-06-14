@@ -7,7 +7,7 @@
 **Temporal Coverage:** annual resolution; 0–2017 CE
 
 **Variables:** 
-* Palmer's Modified Drought Index, Jun-Aug
+* Palmer's Modified Drought Index, Jun–Aug
 
 **Method Summary and Comments** The half degree gridded Jun-Aug PMDI reconstructions from Cook et al. (2010) were recalibrated using the Global Historical Climatology Network (GHCN) 5km grid PMDI data. The 5km data were first upscaled to match the original half-degree grid. The recalibration was performed using a kernel density distribution mapping (KDDM) technique outlined in McGinnis et al. (2015) using an R-package provided by Seth McGinnis. The 50-year recalibration period used was 1929–1978 CE. The author's also adjusted each grid point's mean PMDI value for the recalibration period to be zero to avoid importing wet or dry bias into the recalibration. The recalibrated data set covers the continental United States just as the GHCN instrumental data does. Since instrumental data was used for 1979–2005 CE in the Cook dataset, recalibration applied only to the years 0–1978 CE. The 1979–2017 instrumental years were filled in using data from NCEI's GHCN 5km instrumental PMDI data.
 
