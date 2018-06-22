@@ -1,0 +1,26 @@
+{
+  "type": "dataset",
+  "status": "Published",
+  "revised": "2009-06-14",
+
+  "region": {
+    "resolution": "250m",
+    "name": "Continental US at 250m",
+    "extents": [ -125, 25, -65, 50 ]
+  },
+
+  "timespan": {
+    "name": "version 4.1",
+    "resolution": "year",
+    "period": {
+      "gte": "2009",
+      "lte": "2009"
+    }
+  },
+
+  "variables": [
+    { "class": "Elevation",
+      "name": "Elevation (m)" }
+  ]
+}
+

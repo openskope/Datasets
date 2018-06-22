@@ -1,0 +1,12 @@
+{
+  "overlays": [
+    {
+      "name": "Elevation (m)",
+      "type": "wms",
+      "url": "{DEPLOY_HOST}/geoserver/SKOPE/wms?layers=SKOPE:srtm",
+      "min": 0.0,
+      "max": 4500.0,
+      "styles": [ "default" ]
+    } 
+  ]
+}
