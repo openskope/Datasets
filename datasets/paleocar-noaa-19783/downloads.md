@@ -1,4 +1,4 @@
 _Custom downloads are not available during the alpha period._
 
-[PaleoCAR data](https://www1.ncdc.noaa.gov/pub/data/paleo/treering/reconstructions/northamerica/usa/bocinsky2016/) in netCDF format is available from the [NOAA study page](https://www.ncdc.noaa.gov/paleo/study/19783).
+PaleoCAR data in netCDF format are available from the [NOAA study page](https://www.ncdc.noaa.gov/paleo/study/19783).
 
