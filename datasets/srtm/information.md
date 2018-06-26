@@ -1,37 +1,25 @@
-The following was provided in the readme.txt.
+## SRTM 90m Digital Elevation Data v4.1
 
-## PROCESSED SRTM DATA VERSION 4.1
+**Originator:** NASA Shuttle Radar Topographic Mission (SRTM)
 
-The data  distributed here  are in  ARC GRID,  ARC ASCII  and Geotiff format, in
-decimal degrees and datum WGS84.  They are derived from the USGS/NASA SRTM data.
-CIAT  have  processed  this  data  to  provide  seamless  continuous  topography
-surfaces.  Areas with  regions of no  data in the  original SRTM data  have been
-filled using interpolation methods described by Reuter et al. (2007).
+**Spatial Coverage:** 3 arc-sec (~90 m) resolution; current for the Contiguous 48 US Statesh
 
-Version 4.1 has the following enhancements over V4.0:
-- Improved ocean mask used, which includes some small islands  previously  being 
-  lost in the cut data.
-- Single no-data line of pixels along meridians fixed.
-- All GeoTiffs with 6000 x 6000 pixels.
-- For ASCII format files the projection definition is included in .prj files.
-- For GeoTiff format files the projection definition is in the .tfw  (ESRI TIFF 
-  World) and a .hdr file that reports PROJ.4 equivelent projection definitions.
+**Temporal Coverage:** atemporal (dated to 2009)
 
-## NO WARRANTY OR LIABILITY
+**Variables:** 
+* Elevation (m, <16m resolution)
 
-CIAT provides  these data  without any  warranty of  any kind whatsoever, either
-express or implied,  including warranties of  merchantability and fitness  for a
-particular purpose. CIAT shall not  be liable for incidental, consequential,  or
-special damages arising out of the use of any data.
+**Method Summary and Comments** The data derive from the USGS/NASA SRTM data. The data currently contains "no-data" holes where water or heavy shadow prevented the quantification of elevation. These are generally small holes, which nevertheless render the data less useful, especially in fields of hydrological modeling. *Verify:* Ihe International Centre for Tropical Agriculture (CIAT) has  processed this  data  to  provide  seamless continuous topography surfaces. Areas with regions of no  data in the  original SRTM data have been filled using interpolation methods described by Reuter et al. (2007). 
 
-## ACKNOWLEDGMENT AND CITATION
+**Uncertainty:** N/A
 
-Jarvis A., H.I. Reuter, A.  Nelson, E. Guevara, 2008, Hole-filled  seamless SRTM
-data V4, International  Centre for Tropical  Agriculture (CIAT), available  from
-http://srtm.csi.cgiar.org.
+**Data archived at:** *Needs to be inserted*
 
-## REFERENCES
+**References:** Jarvis A., H.I. Reuter, A.  Nelson, E. Guevara, 2008, Hole-filled seamless SRTM data V4, International  Centre for Tropical  Agriculture (CIAT), available from http://srtm.csi.cgiar.org.
 
-Reuter  H.I,  A.  Nelson,  A.  Jarvis,  2007,  An  evaluation  of  void  filling
-interpolation  methods  for  SRTM  data,  International  Journal  of  Geographic
-Information Science, 21:9, 983-1008.
+Reuter  H.I,  A.  Nelson,  A.  Jarvis,  2007,  An  evaluation  of  void  filling interpolation  methods  for  SRTM  data,  International  Journal  of  Geographic Information Science, 21:9, 983-1008.
+
+**Data Last Revised:** 2009
+
+**Contact Information**
+*needs to be inserted*
