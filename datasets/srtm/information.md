@@ -1,4 +1,4 @@
-## SRTM 90m Digital Elevation Data v4.1
+## SRTM 90m Digital Elevation Data V4.1
 
 **Originator:** NASA Shuttle Radar Topographic Mission (SRTM)
 
