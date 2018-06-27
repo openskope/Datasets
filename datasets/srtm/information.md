@@ -1,25 +1,30 @@
-## SRTM 90m Digital Elevation Data V4.1
+## SRTM 90m Digital Elevation Model V4.1
 
 **Originator:** NASA Shuttle Radar Topographic Mission (SRTM)
 
-**Spatial Coverage:** 3 arc-sec (~90 m) resolution; current for the Contiguous 48 US Statesh
+**Spatial Coverage:** 3 arc-sec (~90 m) resolution; current for the contiguous 48 US States
 
 **Temporal Coverage:** atemporal (dated to 2009)
 
 **Variables:** 
-* Elevation (m, <16m resolution)
+* Elevation (m, < 16m vertical error)
 
-**Method Summary and Comments** The data derive from the USGS/NASA SRTM data. The data currently contains "no-data" holes where water or heavy shadow prevented the quantification of elevation. These are generally small holes, which nevertheless render the data less useful, especially in fields of hydrological modeling. *Verify:* Ihe International Centre for Tropical Agriculture (CIAT) has  processed this  data  to  provide  seamless continuous topography surfaces. Areas with regions of no  data in the  original SRTM data have been filled using interpolation methods described by Reuter et al. (2007). 
+**Method Summary and Comments** These data are provided by the Consortium for Spatial Information (CGIAR-CSI) of the Consultative Group for International Agricultural Research (CGIAR). The data are post-processed 3-arc second DEM data for the globe. The original SRTM (v1) data has been subjected to a number of processing steps to provide seamless and complete elevational surfaces for the globe. In its original release, SRTM data contained regions of no-data, specifically over water bodies (lakes and rivers), and in areas where insufficient textural detail was available in the original radar images to produce three-dimensional elevational data. The CGIAR-CSI SRTM data product applies a hole-filling algorithm to provide continuous elevational surfaces.
 
-**Uncertainty:** N/A
+**Uncertainty:** < 16m vertical error
 
-**Data archived at:** *Needs to be inserted*
+**Data archived at:** http://srtm.csi.cgiar.org/
 
-**References:** Jarvis A., H.I. Reuter, A.  Nelson, E. Guevara, 2008, Hole-filled seamless SRTM data V4, International  Centre for Tropical  Agriculture (CIAT), available from http://srtm.csi.cgiar.org.
+**References:** Jarvis A., H.I. Reuter, A. Nelson, E. Guevara, 2008, Hole-filled seamless SRTM data Version 4, available from the CGIAR-CSI SRTM 90m Database: http://srtm.csi.cgiar.org/.
 
 Reuter  H.I,  A.  Nelson,  A.  Jarvis,  2007,  An  evaluation  of  void  filling interpolation  methods  for  SRTM  data,  International  Journal  of  Geographic Information Science, 21:9, 983-1008.
 
-**Data Last Revised:** 2009
+**Data Last Revised:** 2008
 
 **Contact Information:**
-*needs to be inserted*
+For Technical Correspondence regarding the SRTM 90m Digital Elevation Data, contact:
+
+Andy Jarvis, Ph.D.
+Program Leader --- Decision and Policy Analysis
+International Centre for Tropical Agriculture (CIAT)
+Email:[a.jarvis@cgiar.org](mailto:a.jarvis@cgiar.org)
