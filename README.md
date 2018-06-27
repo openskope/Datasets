@@ -131,9 +131,9 @@ A title, preceded by ##
 
 **Uncertainty** For the variables in the dataset, indicate what the uncertainty values reported in the dataset mean and a brief description of how they are calculated. Separate descriptions by variable if necessary.
 
-**Method Summary and Comments** A desciption that should be readable by a normal researcher describing how the modeled data is calculated.
+**Method Summary and Comments:** A desciption that should be readable by a normal researcher describing how the modeled data is calculated.
 
-**References** Key references describing the dataset and underlying model.  Provide URL if available.
+**References:** Key references describing the dataset and underlying model.  Provide URL if available.
 
 **Data Archived At:** Provide the URL (if available) where the full dataset may be downloaded.
 
