@@ -96,11 +96,11 @@ The timespan field defined the temporal extent of the dataset. Two subfields are
 a descriptive name (i.e. 0000-2000CE) for the timespan. The _period_ should match this descriptive name
 using starting (gte) and ending (lte) dates in the form of year (yyyy) or year-month (yyyy-mm).
 
-### Supporting Files
+## Supporting Files
 The following files are automatically read during processing of the dataset and includes as part of the dataset.json
 document. 
 
-#### description.md
+### description.md
 The description.md is the primary content displayed for SKOPE search result cards. Given the limited space
 available on each card, the author should attempt to keep the description as brief as possible (2-3 sentences).
 But remember that users will be evaluating the dataset using this description. Focus on the information they will
@@ -109,13 +109,17 @@ likely need. Also remember that the information.md provides an opportunity to en
 During processing, the description.md content automatically overwrites the description field in the dataset.json file. 
 If a title line (single #) is present, it will overwrite the dataset.json title and is removed from the description.
 
-#### information.md
+### information.md
 The information.md is a place to get creative with the description of the dataset. Any information important
 for the researcher should be placed within this document. This can include formal abstracts, authors or
 or researcher names, publication citations, study notes, etc. Remember to use the full power of markdown
 when creating this file.
 
 The contents of the information.md is included in Elasticsearch and available as part of full text searches.
+
+While the information.md file is not strictly fielded, we have developed a template in which the following items should be included.  Other than the title, the field name should be **bolded**.  The text can continue on the same line as the heading but should be separated with a blank line from the following entry.
+
+A title, preceded by ##
 
 **Originator:** The individual or organization responsible for the dataset's creation.
 
@@ -125,19 +129,19 @@ The contents of the information.md is included in Elasticsearch and available as
 
 **Variables:** A list of the variables included in the dataset (each starting on a new line) providing a name, units in which the variable is measured, and any information needed concerning its computation or interpretation by the user.
 
+**Uncertainty** For the variables in the dataset, indicate what the uncertainty values reported in the dataset mean and a brief description of how they are calculated. Separate descriptions by variable if necessary.
+
 **Method Summary and Comments** A desciption that should be readable by a normal researcher describing how the modeled data is calculated.
-
-**Uncertainty** For the variables in the dataset (separate description by variable if necessary), indicate what the uncertainty values reported in the dataset mean and a brief description of how they are calculated.
-
-**Data Archived At:** Provide the URL where the full dataset may be downloaded.
 
 **References** Key references describing the dataset and underlying model.  Provide URL if available.
 
+**Data Archived At:** Provide the URL (if available) where the full dataset may be downloaded.
+
 **Date Last Revised:** The date of the last update to the dataset.
 
-**Contact Information:** Contact information for the dataset provider. 
+**Contact Information:** Contact information (URL if available) for the dataset provider.
 
-#### boundary.geojson
+### boundary.geojson
 The boundary defining the dataset. The boundary is multiple purposed, used both for display within the search card and as 
 part of the workspace layers tab and the part of the spatial search capabilities. Datasets without boundary information
 are automatically excluded from any spatial searchers.
@@ -145,37 +149,33 @@ are automatically excluded from any spatial searchers.
 If the boundary.geojson is not present, a basic rectangular boundary will be automatically generated from the region.extents
 field.
 
-#### downloads.md
+### downloads.md
 This file describes the data that is available for download. It should include a technical summary of the
 data and any restriction of the use or licenses associated with the data, how to report issues, etc. If the
 data is not generally available, this file could provide contact information to request access.  
 
-#### downloads.json
+### downloads.json
 If the data is being made available from SKOPE, this additional document will include the necessary parameters
 to support format conversion, spatial clipping, etc. 
 
-#### overlays.md
+### overlays.md
 If the data is available in map overlay form (i.e from a tile server), this document should describe the
 availability and any terms of use.
 
-#### overlays.json
+### overlays.json
 This document provides the technical details of accessing the overlays with the workspace display and 
 includes the url endpoints of the tile service and any parameters necessary for accessing the service. If 
 the overlays are generated by the SKOPE geoserver the min, max, and style fields provide the information 
 necessary to modify the rendering of the tiles dynamically.
 
-#### analytics.md
+### analytics.md
 This document describes the analytics services such as graph generation available for a dataset. Analytics
 are only available for a select set of data which is hosted on SKOPE servers.
 
-#### analytics.json
+### analytics.json
 This document provides the technical details necessary to drive the analytics capabilities of the workspace.
 The exact details of this are still work-in-progress.
 
-### model.md
+## model.md
 This documents provide details about the model that generated the scenario and the ability to re-run using the
 Tinkerer interface.
-
-
-
-
