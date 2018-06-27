@@ -117,6 +117,26 @@ when creating this file.
 
 The contents of the information.md is included in Elasticsearch and available as part of full text searches.
 
+**Originator:** The individual or organization responsible for the dataset's creation.
+
+**Spatial Coverage:** A description of the area for which data are available plus the spatial resolution.
+
+**Temporal Coverage:** The temporal range of values and their temporal resolution.
+
+**Variables:** A list of the variables included in the dataset (each starting on a new line) providing a name, units in which the variable is measured, and any information needed concerning its computation or interpretation by the user.
+
+**Method Summary and Comments** A desciption that should be readable by a normal researcher describing how the modeled data is calculated.
+
+**Uncertainty** For the variables in the dataset (separate description by variable if necessary), indicate what the uncertainty values reported in the dataset mean and a brief description of how they are calculated.
+
+**Data Archived At:** Provide the URL where the full dataset may be downloaded.
+
+**References** Key references describing the dataset and underlying model.  Provide URL if available.
+
+**Date Last Revised:** The date of the last update to the dataset.
+
+**Contact Information:** Contact information for the dataset provider. 
+
 #### boundary.geojson
 The boundary defining the dataset. The boundary is multiple purposed, used both for display within the search card and as 
 part of the workspace layers tab and the part of the spatial search capabilities. Datasets without boundary information
