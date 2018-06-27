@@ -23,7 +23,7 @@ Reuter  H.I,  A.  Nelson,  A.  Jarvis,  2007,  An  evaluation  of  void  filling
 **Data Last Revised:** 2008
 
 **Contact Information:**
->For Technical Correspondence regarding the SRTM 90m Digital Elevation Data, contact:
+For Technical Correspondence regarding the SRTM 90m Digital Elevation Data, contact:
 
 Andy Jarvis, Ph.D.
 Program Leader --- Decision and Policy Analysis
