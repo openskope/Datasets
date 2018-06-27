@@ -7,7 +7,7 @@
 **Temporal Coverage:** atemporal (dated to 2009)
 
 **Variables:** 
-* Elevation (m, < 16m vertical error)
+* Elevation: m, < 16m vertical error
 
 **Uncertainty:** < 16m vertical error
 
