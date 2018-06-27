@@ -27,4 +27,4 @@ For Technical Correspondence regarding the SRTM 90m Digital Elevation Data, cont
 Andy Jarvis, Ph.D.
 Program Leader --- Decision and Policy Analysis
 International Centre for Tropical Agriculture (CIAT)
-Email:[a.jarvis@cgiar.org](mailto:a.jarvis@cgiar.org)
+Email: [a.jarvis@cgiar.org](mailto:a.jarvis@cgiar.org)
