@@ -141,6 +141,38 @@ A title, preceded by ##
 
 **Contact Information:** Contact information (URL if available) for the dataset provider.
 
+Template for information.md provided here:
+```
+## Dataset Title
+**Originator:** text
+
+**Spatial Coverage:** area, resolution
+
+**Temporal Coverage:** time range, resolution
+
+**Variables:** 
+* Var 1 Name: text
+* Var 2 Name: text
+
+**Uncertainty:** text
+
+**Method Summary and Comments** text
+
+**References:** Ref 1 text
+
+Ref 2 text
+
+...
+
+**Data Archived at:** url
+
+**Data Last Revised:** date
+
+**Contact Information:** [end lines with 2 spaces] 
+>  block quote text
+continued text
+```
+
 ### boundary.geojson
 The boundary defining the dataset. The boundary is multiple purposed, used both for display within the search card and as 
 part of the workspace layers tab and the part of the spatial search capabilities. Datasets without boundary information
