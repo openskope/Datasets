@@ -5,6 +5,7 @@
 **Spatial Coverage:** Contiguous 48 US States, 30 arc-sec (~800 m) resolution
 
 **Temporal Coverage:** 1895 to present, monthly resolution
+
 **Variables:** 
 * Mean Daily Max. Temp.: deg. F, monthly
 * Mean Daily Min. Temp.: deg. F, monthly
@@ -16,11 +17,13 @@
 
 Time series datasets prior to 1981 are modeled using climatologically-aided interpolation (CAI), which uses the long-term average pattern (i.e., the 30-year normals) as first-guess of the spatial pattern of climatic conditions for a given month or day. CAI is robust to wide variations in station data density, which is necessary when modeling long time series. Data is based on monthly modeling.
 
-**References:** [add]
+**References:** Christopher Daly, Michael Halbleib, Joseph I. Smith, Wayne P. Gibson, Matthew K. Doggett, George H. Taylor, Jan Curtis, and Phillip P. Pasteris. 2008. [International Journal of Climatology]. DOI: 10.1002/joc.1688. http://www.prism.oregonstate.edu/documents/Daly2008_PhysiographicMapping_IntJnlClim.pdf
 
-**Data Archived at:** [PRISM Climate Group](prism.oregonstate.edu)
+Additional references at http://www.prism.oregonstate.edu/documents/
 
-**Data Last Revised:** [add date]
+**Data Archived at:** [PRISM Climate Group](http://www.prism.oregonstate.edu)
+
+**Data Last Revised:** [add date of SKOPE version]
 
 **Contact Information:**
-> [PRISM Climate Group](prism.oregonstate.edu)
+> [PRISM Climate Group](http://www.prism.oregonstate.edu)
