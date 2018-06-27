@@ -1,4 +1,3 @@
-# Map Overlays
 A mapping overlay service is available for previewing PaleoCAR data.
 
 Overlay maps are generated with a green-blue-red color ramp as default. But
