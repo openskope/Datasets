@@ -25,7 +25,7 @@ Reuter  H.I,  A.  Nelson,  A.  Jarvis,  2007,  An  evaluation  of  void  filling
 **Contact Information:**
 For Technical Correspondence regarding the SRTM 90m Digital Elevation Data, contact:
 
->Andy Jarvis, Ph.D.
->Program Leader --- Decision and Policy Analysis
->International Centre for Tropical Agriculture (CIAT)
->Email: [a.jarvis@cgiar.org](mailto:a.jarvis@cgiar.org)
+> Andy Jarvis, Ph.D.  
+Program Leader --- Decision and Policy Analysis  
+International Centre for Tropical Agriculture (CIAT)  
+Email: [a.jarvis@cgiar.org](mailto:a.jarvis@cgiar.org)  
