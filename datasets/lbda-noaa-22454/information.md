@@ -7,7 +7,7 @@
 **Temporal Coverage:** annual resolution; 0–2017 CE
 
 **Variables:** 
-*Palmer's Modified Drought Index*, Jun–Aug.; <=-4.00 extreme drought; -3.00 to-3.99 severe drought; -2.00 to -2.99 moderate dought, -1.99 to 1.99 midrange; 2.00 to 2.99 moderately moist; 3.00 to 3.99 very moist; >=4.00 extremely moist.
+* Palmer's Modified Drought Index: Jun–Aug.; <=-4.00 extreme drought; -3.00 to-3.99 severe drought; -2.00 to -2.99 moderate dought, -1.99 to 1.99 midrange; 2.00 to 2.99 moderately moist; 3.00 to 3.99 very moist; >=4.00 extremely moist.
 
 **Uncertainty:** No uncertainty estimates available.
 
