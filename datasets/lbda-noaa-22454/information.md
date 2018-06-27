@@ -7,19 +7,19 @@
 **Temporal Coverage:** annual resolution; 0–2017 CE
 
 **Variables:** 
-* Palmer's Modified Drought Index, Jun–Aug.; <=-4.00 extreme drought; -3.00 to-3.99 severe drought; -2.00 to -2.99 moderate dought, -1.99 to 1.99 midrange; 2.00 to 2.99 moderately moist; 3.00 to 3.99 very moist; >=4.00 extremely moist.
-
-**Method Summary and Comments** The half degree gridded Jun-Aug PMDI reconstructions from Cook et al. (2010) were recalibrated using the Global Historical Climatology Network (GHCN) 5km grid PMDI data. The 5km data were first upscaled to match the original half-degree grid. The recalibration was performed using a kernel density distribution mapping (KDDM) technique outlined in McGinnis et al. (2015) using an R-package provided by Seth McGinnis. The 50-year recalibration period used was 1929–1978 CE. The author's also adjusted each grid point's mean PMDI value for the recalibration period to be zero to avoid importing wet or dry bias into the recalibration. The recalibrated data set covers the continental United States just as the GHCN instrumental data does. Since instrumental data was used for 1979–2005 CE in the Cook dataset, recalibration applied only to the years 0–1978 CE. The 1979–2017 instrumental years were filled in using data from NCEI's GHCN 5km instrumental PMDI data.
+*Palmer's Modified Drought Index*, Jun–Aug.; <=-4.00 extreme drought; -3.00 to-3.99 severe drought; -2.00 to -2.99 moderate dought, -1.99 to 1.99 midrange; 2.00 to 2.99 moderately moist; 3.00 to 3.99 very moist; >=4.00 extremely moist.
 
 **Uncertainty:** No uncertainty estimates available.
 
-**Data archived at:** [https://www.ncdc.noaa.gov/paleo/study/22454](https://www.ncdc.noaa.gov/paleo/study/22454)
+**Method Summary and Comments** The half degree gridded Jun-Aug PMDI reconstructions from Cook et al. (2010) were recalibrated using the Global Historical Climatology Network (GHCN) 5km grid PMDI data. The 5km data were first upscaled to match the original half-degree grid. The recalibration was performed using a kernel density distribution mapping (KDDM) technique outlined in McGinnis et al. (2015) using an R-package provided by Seth McGinnis. The 50-year recalibration period used was 1929–1978 CE. The author's also adjusted each grid point's mean PMDI value for the recalibration period to be zero to avoid importing wet or dry bias into the recalibration. The recalibrated data set covers the continental United States just as the GHCN instrumental data does. Since instrumental data was used for 1979–2005 CE in the Cook dataset, recalibration applied only to the years 0–1978 CE. The 1979–2017 instrumental years were filled in using data from NCEI's GHCN 5km instrumental PMDI data.
 
 **References:** Cook, E.R., Seager, R., Heim, R.R., Vose, R.S., Herweijer, C., and Woodhouse, C. 2010. Megadroughts in North America: Placing IPCC projections of hydroclimatic change in a long-term paleoclimate context. Journal of Quaternary Science, 25(1), 48-61. doi: 10.1002/jqs.1303
 
+**Data Archived at:** [https://www.ncdc.noaa.gov/paleo/study/22454](https://www.ncdc.noaa.gov/paleo/study/22454)
+
 **Data Last Revised:** November 28, 2017
 
-**Contact Information**
+**Contact Information:**
 
 > DOC/NOAA/NESDIS/NCEI  
 National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce  
