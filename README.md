@@ -208,6 +208,6 @@ are only available for a select set of data which is hosted on SKOPE servers.
 This document provides the technical details necessary to drive the analytics capabilities of the workspace.
 The exact details of this are still work-in-progress.
 
-## model.md
+### model.md
 This documents provide details about the model that generated the scenario and the ability to re-run using the
 Tinkerer interface.
