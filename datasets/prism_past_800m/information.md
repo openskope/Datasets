@@ -4,7 +4,7 @@
 
 **Spatial Coverage:** Contiguous 48 US States, 30 arc-sec (~800 m) resolution
 
-**Temporal Coverage:** 1895 to present, monthly resolution
+**Temporal Coverage:** 1895 to 2012, monthly resolution
 
 **Variables:** 
 * Mean Daily Max. Temp.: deg. F, monthly
@@ -23,7 +23,7 @@ Additional references at http://www.prism.oregonstate.edu/documents/
 
 **Data Archived at:** [PRISM Climate Group](http://www.prism.oregonstate.edu)
 
-**Data Last Revised:** [add date of SKOPE version]
+**Data Last Revised:** December 2012
 
 **Contact Information:**
 > [PRISM Climate Group](http://www.prism.oregonstate.edu)
