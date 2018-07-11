@@ -11,10 +11,10 @@
 
   "timespan": {
     "name": "1895-2013CE monthly",
-    "resolution": "year",
+    "resolution": "month",
     "period": {
-      "gte": "1895",
-      "lte": "2013"
+      "gte": "1895-01",
+      "lte": "2013-07"
     }
   },
 
