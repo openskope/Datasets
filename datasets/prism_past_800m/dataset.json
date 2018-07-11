@@ -14,7 +14,7 @@
     "resolution": "month",
     "period": {
       "gte": "1895-01",
-      "lte": "2013-07"
+      "lte": "2013-04"
     }
   },
 
