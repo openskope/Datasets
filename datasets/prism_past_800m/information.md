@@ -7,9 +7,9 @@
 **Temporal Coverage:** 1895 to 2012, monthly resolution
 
 **Variables:** 
-* Mean Daily Max. Temp.: deg. F, monthly
-* Mean Daily Min. Temp.: deg. F, monthly
-* Monthly Precipitation: in., monthly
+* Mean Daily Max. Temp.: deg. C, monthly
+* Mean Daily Min. Temp.: deg. C, monthly
+* Monthly Precipitation: cm., monthly
 
 **Uncertainty:** Uncertainty information is not available for PRISM
 
