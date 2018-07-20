@@ -1,7 +1,7 @@
 {
   "analytics": [
     {
-      "name": "Monthly Precipitation (in.)",
+      "name": "Monthly Precipitation (cm)",
       "url": "{DEPLOY_HOST}/timeseries-service/api/v1/timeseries/prism/ppt?start={start}&end={end}&timeZero=1895-01&timeResolution=month&{boundaryGeometry}"
     },
     {

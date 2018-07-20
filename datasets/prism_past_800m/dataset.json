@@ -26,7 +26,7 @@
       "name": "Mean Daily Min. Temp. (C, Month)"
     },
     { "class": "Precipitation",
-      "name": "Monthly Precipitation (in.)" }
+      "name": "Monthly Precipitation (cm)" }
   ]
 }
 

@@ -1,7 +1,7 @@
 {
   "overlays": [
     {
-      "name": "Monthly Precipitation (in.)",
+      "name": "Monthly Precipitation (cm)",
       "type": "wms",
       "url": "{DEPLOY_HOST}/geoserver/SKOPE/wms?layers=SKOPE:cai_ppt_us_us_30s_{YYYY}{MM}",
       "min": 0.0,
