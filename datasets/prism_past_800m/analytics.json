@@ -5,11 +5,11 @@
       "url": "{DEPLOY_HOST}/timeseries-service/api/v1/timeseries/prism/ppt?start={start}&end={end}&timeZero=1895-01&timeResolution=month&{boundaryGeometry}"
     },
     {
-      "name": "Mean Daily Min. Temp. (F, Month)",
+      "name": "Mean Daily Min. Temp. (C, Month)",
       "url": "{DEPLOY_HOST}/timeseries-service/api/v1/timeseries/prism/tmin?start={start}&end={end}&timeZero=1895-01&timeResolution=month&{boundaryGeometry}"
     },
     {
-      "name": "Mean Daily Max. Temp. (F, Month)",
+      "name": "Mean Daily Max. Temp. (C, Month)",
       "url": "{DEPLOY_HOST}/timeseries-service/api/v1/timeseries/prism/tmax?start={start}&end={end}&timeZero=1895-01&timeResolution=month&{boundaryGeometry}"
     }
   ]
