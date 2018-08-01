@@ -17,7 +17,7 @@ for y in {0..1999}; do
     echo ${f/.nc4/_${year}.nc4}
   done
 
-  gdal_merge.py -init -32768 -a_nodata -32768 -a_src EPSG:4326 -o ${dst}/${var}_${year}.tif data/*${var}_????.nc4
+  gdal_merge.py -init -32768 -a_nodata -32768 -a_srs EPSG:4326 -o ${dst}/${var}_${year}.tif data/*${var}_????.nc4
   echo ${year}   `date`
 done
 rm data/*${var}_????.nc4
